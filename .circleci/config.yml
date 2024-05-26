@@ -13,7 +13,8 @@ jobs:
       - run:
           name: Print Python Verson
           command: |
-            python3 -version
+            dnf install python3 -y
+            python3 -V
       - run:
           name: Run Regression Simulation
           command: |
