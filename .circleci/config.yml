@@ -16,7 +16,7 @@ jobs:
             dnf install python3 -y
             python3 -version
       - run:
-          name: Run Gatling Simulation
+          name: Run Regression Simulation
           command: |
             chmod 755 *
             sh regresson.sh
