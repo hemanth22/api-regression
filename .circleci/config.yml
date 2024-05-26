@@ -14,7 +14,6 @@ jobs:
           name: Install Dependencies
           command: |
             dnf install python3 -y
-            alternatives --set python3 /usr/bin/python3
             python3 -version
       - run:
           name: Run Gatling Simulation
