@@ -6,7 +6,7 @@ BEGIN {
     print "<th>Test Case details</th>"
     print "<th>Add</th>"
     print "<th>Sub</th>"
-    print "<th>Multi</th>"
+    print "<th>Multiple</th>"
     print "<th>Divide</th>"
     print "</tr>"
 }
